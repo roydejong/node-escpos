@@ -12,7 +12,7 @@ const Promiseify   = require('./promiseify');
 
 /**
  * [function ESC/POS Printer]
- * @param  {[Adapter]} adapter [eg: usb, network, or serialport]
+ * @param  {[Adapter]} adapter [eg: network, or serialport]
  * @return {[Printer]} printer  [the escpos printer instance]
  */
 function Printer(adapter){
